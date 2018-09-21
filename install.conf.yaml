@@ -5,5 +5,29 @@
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
 
+- vscode:
+    - "AndrsDC.base16-themes"
+    - "EditorConfig.EditorConfig"
+    - "drewbarrett.vscode-coffeescript-preview"
+    - "felixfbecker.php-debug"
+    - "felixfbecker.php-intellisense"
+    - "humao.rest-client"
+    - "icrawl.discord-vscode"
+    - "kleber-swf.ocean-dark-extended"
+    - "mikestead.dotenv"
+    - "ms-python.python"
+    - "ms-vscode.csharp"
+    - "ms-vscode.mono-debug"
+    - "PeterJausovec.vscode-docker"
+    - "redhat.java"
+    - "robertohuertasm.vscode-icons"
+    - "vscjava.vscode-java-debug"
+    - "vscjava.vscode-java-pack"
+    - "vscjava.vscode-java-test"
+    - "vscjava.vscode-maven"
+    - "vscodevim.vim"
+    - "yorkxin.coffeescript-support"
+
+
 - shell:
     - [git submodule sync --recursive, Installing submodules]
