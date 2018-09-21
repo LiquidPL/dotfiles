@@ -1,0 +1,24 @@
+{
+    "editor.fontFamily": "'Hack'",
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": true,
+    "editor.rulers": [80, 88, 120],
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.visible": true,
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    "explorer.autoReveal": false,
+    "docker.attachShellCommand.linuxContainer": "/bin/bash",
+    "workbench.colorTheme": "Ocean Dark Extended",
+
+    "workbench.colorCustomizations": {
+        "terminal.ansiBrightBlue": "#8fa1b3",
+    },
+
+    "breadcrumbs.enabled": true,
+    "php.suggest.basic": false,
+}

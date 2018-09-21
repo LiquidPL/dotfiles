@@ -1,0 +1,5 @@
+link:
+    - ~/.config/Code/User/settings.json: vscode/settings.json
+
+vscode:
+    - 'fkrull.gtk-dark-titlebar'
