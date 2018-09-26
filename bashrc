@@ -10,6 +10,9 @@ else
     echo "hub not found - install it using your preferred OS method"
 fi
 
+# Travis CI CLI tool stuff
+[ -f /home/liquid/.travis/travis.sh ] && source /home/liquid/.travis/travis.sh
+
 # Theming configuration for QT programs running in GNOME
 export QT_STYLE_OVERRIDE=kvantum
 
