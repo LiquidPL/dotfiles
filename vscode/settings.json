@@ -21,4 +21,6 @@
 
     "breadcrumbs.enabled": true,
     "php.suggest.basic": false,
+
+    "vsicons.dontShowNewVersionMessage": true,
 }
