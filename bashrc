@@ -1,6 +1,8 @@
 # $PATH, duh
 export PATH="$PATH:/home/liquid/bin"
 
+export VISUAL=vim
+
 # GitHub's hub helper - hub.github.com
 if [ -x "$(command -v hub)" ]; then
     alias git=hub
