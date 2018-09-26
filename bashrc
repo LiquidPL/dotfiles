@@ -1,3 +1,6 @@
+# $PATH, duh
+export PATH="$PATH:/home/liquid/bin"
+
 # GitHub's hub helper - hub.github.com
 if [ -x "$(command -v hub)" ]; then
     alias git=hub
@@ -16,3 +19,4 @@ export LANG=en_US.UTF-8
 if [ -f /usr/local/share/bash-completion/bash_completion ]; then
 	. /usr/local/share/bash-completion/bash_completion
 fi
+
