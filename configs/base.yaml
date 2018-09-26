@@ -1,8 +1,7 @@
 - clean: ['~']
 
 - link:
-    ~/.bash_profile: bash_profile
-    ~/.profile: bash_profile
+    ~/.profile: bash_profile  # gnome-shell sources .profile
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
 
@@ -28,7 +27,6 @@
     - "vscjava.vscode-maven"
     - "vscodevim.vim"
     - "yorkxin.coffeescript-support"
-
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
