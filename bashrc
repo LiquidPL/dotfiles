@@ -1,5 +1,5 @@
 # $PATH, duh
-export PATH="$PATH:/home/liquid/bin"
+export PATH="/home/liquid/.local/bin:$PATH:/home/liquid/bin"
 
 export VISUAL=vim
 
