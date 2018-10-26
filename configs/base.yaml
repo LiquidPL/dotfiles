@@ -10,7 +10,7 @@
     - "EditorConfig.EditorConfig"
     - "drewbarrett.vscode-coffeescript-preview"
     - "felixfbecker.php-debug"
-    - "felixfbecker.php-intellisense"
+    - "bmewburn.vscode-intelephense-client"
     - "humao.rest-client"
     - "icrawl.discord-vscode"
     - "kleber-swf.ocean-dark-extended"
