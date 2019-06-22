@@ -4,3 +4,6 @@
 [submodule "dotbot-vscode"]
 	path = dotbot-vscode
 	url = git@github.com:LiquidPL/dotbot-vscode.git
+[submodule "pyenv"]
+	path = pyenv
+	url = https://github.com/pyenv/pyenv

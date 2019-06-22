@@ -4,6 +4,7 @@
     ~/.profile: bash_profile  # gnome-shell sources .profile
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
+    ~/.pyenv: pyenv
 
 - vscode:
     - "AndrsDC.base16-themes"

@@ -15,3 +15,7 @@ fi
 
 # Theming configuration for QT programs running in GNOME
 export QT_STYLE_OVERRIDE=kvantum
+
+# pyenv variables
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
