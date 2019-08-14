@@ -1,3 +1,5 @@
 [user]
 	name = Krzysztof Gutkowski
 	email = krzysio.gutkowski@gmail.com
+[core]
+	autocrlf = input
