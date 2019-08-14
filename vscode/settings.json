@@ -20,4 +20,10 @@
     "php.suggest.basic": false,
 
     "vsicons.dontShowNewVersionMessage": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "disabled",
+    "python.jediEnabled": false,
+
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/bin/nvim"
 }
