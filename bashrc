@@ -1,5 +1,8 @@
+# Go variables
+export GOPATH="$HOME/.go"
+
 # $PATH, duh
-export PATH="/home/liquid/.local/bin:$PATH:/home/liquid/bin"
+export PATH="/home/liquid/.local/bin:$PATH:/home/liquid/bin:${GOPATH//://bin:}/bin"
 
 export VISUAL=vim
 
