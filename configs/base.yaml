@@ -30,6 +30,7 @@
     - "yorkxin.coffeescript-support"
     - "ms-vscode.vscode-typescript-tslint-plugin"
     - "junstyle.php-cs-fixer"
+    - "MS-vsliveshare.vsliveshare-pack"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
