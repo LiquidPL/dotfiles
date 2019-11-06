@@ -17,7 +17,6 @@
     "workbench.colorTheme": "Ocean Dark Extended",
 
     "breadcrumbs.enabled": true,
-    "php.suggest.basic": false,
 
     "vsicons.dontShowNewVersionMessage": true,
     "editor.suggestSelection": "first",
@@ -25,5 +24,12 @@
     "python.jediEnabled": false,
 
     "vim.enableNeovim": true,
-    "vim.neovimPath": "/usr/bin/nvim"
+    "vim.neovimPath": "/usr/bin/nvim",
+
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php.suggest.basic": false,
+    "php-cs-fixer.executablePath": "/home/liquid/.config/composer/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.rules": "@PSR1,@PSR2,@Symfony,strict_comparison,strict_param,",
 }
