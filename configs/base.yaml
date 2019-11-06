@@ -29,6 +29,7 @@
     - "vscodevim.vim"
     - "yorkxin.coffeescript-support"
     - "ms-vscode.vscode-typescript-tslint-plugin"
+    - "junstyle.php-cs-fixer"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
