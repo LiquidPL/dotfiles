@@ -33,6 +33,7 @@
     - "MS-vsliveshare.vsliveshare-pack"
     - "james-yu.latex-workshop"
     - "tecosaur.latex-utilities"
+    - "onecentlin.laravel-blade"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
