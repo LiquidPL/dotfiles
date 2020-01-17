@@ -1,6 +1,3 @@
-# $PATH, duh
-export PATH="/home/liquid/.local/bin:$PATH:/home/liquid/bin:/home/liquid/.config/composer/vendor/bin"
-
 export VISUAL=vim
 
 # GitHub's hub helper - hub.github.com
@@ -12,10 +9,3 @@ fi
 
 # Travis CI CLI tool stuff
 [ -f /home/liquid/.travis/travis.sh ] && source /home/liquid/.travis/travis.sh
-
-# Theming configuration for QT programs running in GNOME
-export QT_STYLE_OVERRIDE=kvantum
-
-# pyenv variables
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
