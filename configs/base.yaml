@@ -35,6 +35,7 @@
     - "tecosaur.latex-utilities"
     - "onecentlin.laravel-blade"
     - "codingyu.laravel-goto-view"
+    - "octref.vetur"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
