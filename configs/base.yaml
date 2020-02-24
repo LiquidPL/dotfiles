@@ -36,6 +36,8 @@
     - "onecentlin.laravel-blade"
     - "codingyu.laravel-goto-view"
     - "octref.vetur"
+    - "tht13.html-preview-vscode"
+    - "zignd.html-css-class-completion"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
