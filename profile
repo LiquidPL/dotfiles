@@ -18,3 +18,9 @@ fi
 
 # now that we ensured that a pyenv is in $PATH, we can safely run it
 eval "$(pyenv init -)"
+
+# phpenv initialization, fairly similar to pyenv, with the only difference
+# is that we're always using a dotfiles provided release
+
+export PATH="$HOME/.phpenv/bin:$PATH"
+eval "$(phpenv init -)"

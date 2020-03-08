@@ -5,6 +5,10 @@
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
     ~/.pyenv: pyenv
+    ~/.phpenv: phpenv
+    ~/.phpenv/plugins/php-build:
+        create: true
+        path: php-build
 
 - vscode:
     - "AndrsDC.base16-themes"

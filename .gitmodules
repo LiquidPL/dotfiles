@@ -7,3 +7,9 @@
 [submodule "pyenv"]
 	path = pyenv
 	url = https://github.com/pyenv/pyenv
+[submodule "phpenv"]
+	path = phpenv
+	url = git://github.com/phpenv/phpenv.git
+[submodule "php-build"]
+	path = php-build
+	url = https://github.com/php-build/php-build
