@@ -17,7 +17,7 @@
     - "kleber-swf.ocean-dark-extended"
     - "mikestead.dotenv"
     - "ms-python.python"
-    - "ms-vscode.csharp"
+    - "ms-dotnettools.csharp"
     - "ms-vscode.mono-debug"
     - "ms-azuretools.vscode-docker"
     - "redhat.java"
