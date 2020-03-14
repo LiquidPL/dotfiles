@@ -4,6 +4,10 @@ export PATH="/home/liquid/.local/bin:$PATH:/home/liquid/bin:/home/liquid/.config
 # Theming configuration for QT programs running in GNOME
 export QT_STYLE_OVERRIDE=kvantum
 
+# MangoHud, a vulkan overlay showing your FPS, CPU/GPU usage, etc
+# https://github.com/flightlessmango/MangoHud
+export MANGOHUD=1
+
 # pyenv variables
 export PYENV_ROOT="$HOME/.pyenv"
 
