@@ -22,6 +22,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "disabled",
     "python.jediEnabled": false,
+    "python.languageServer": "Pylance",
 
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/bin/nvim",
@@ -32,5 +33,5 @@
     "php.suggest.basic": false,
     "php-cs-fixer.allowRisky": true,
     "php-cs-fixer.rules": "@PSR1,@PSR2,@Symfony,strict_comparison,strict_param,-phpdoc_align,-yoda_style",
-    "blade.format.enable": true,
+    "blade.format.enable": true
 }

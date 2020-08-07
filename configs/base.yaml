@@ -42,6 +42,8 @@
     - "octref.vetur"
     - "tht13.html-preview-vscode"
     - "zignd.html-css-class-completion"
+    - "ms-vscode.cpptools"
+    - "ms-python.vscode-pylance"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
