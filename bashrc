@@ -2,7 +2,7 @@ export VISUAL=vim
 
 # GitHub's hub helper - hub.github.com
 if [ -x "$(command -v hub)" ]; then
-    alias git=hub
+    eval "$(hub alias -s)"
 else
     echo "hub not found - install it using your preferred OS method"
 fi
