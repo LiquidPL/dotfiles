@@ -3,3 +3,7 @@
 	email = krzysio.gutkowski@gmail.com
 [core]
 	autocrlf = input
+[init]
+	defaultBranch = master
+[pull]
+	rebase = false
