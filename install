@@ -18,8 +18,8 @@ esac
 
 cd "${BASEDIR}"
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
-git submodule update --init --recursive 
+git submodule update --init --recursive
 
 for conf in ${PRIMARY_CONFIG} ${SECONDARY_CONFIG} ${@}; do
-    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode -c configs/${conf}${CONFIG_SUFFIX}
+    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode --plugin-dir dotbot-gsettings -c configs/${conf}${CONFIG_SUFFIX}
 done

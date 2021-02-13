@@ -4,3 +4,8 @@
 
 - vscode:
     - 'fkrull.gtk-dark-titlebar'
+
+- gsettings:
+    - schema: 'org.gnome.desktop.wm.preferences'
+      key: 'action-middle-click-titlebar'
+      value: "'minimize'"

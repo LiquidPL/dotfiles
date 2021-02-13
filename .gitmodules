@@ -13,3 +13,6 @@
 [submodule "php-build"]
 	path = php-build
 	url = https://github.com/php-build/php-build
+[submodule "dotbot-gsettings"]
+	path = dotbot-gsettings
+	url = git@github.com:LiquidPL/dotbot-gsettings.git
