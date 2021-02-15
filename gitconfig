@@ -3,6 +3,7 @@
 	email = krzysio.gutkowski@gmail.com
 [core]
 	autocrlf = input
+	excludesFile = /home/liquid/.dotfiles/gitignore
 [init]
 	defaultBranch = master
 [pull]
