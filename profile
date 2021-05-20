@@ -28,3 +28,7 @@ eval "$(pyenv init -)"
 
 export PATH="$HOME/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
+
+# Flutter Version Manager configuration
+export FVM_HOME="$HOME/.fvm"
+export PATH="$PATH:$FVM_HOME/default/bin"
