@@ -44,6 +44,7 @@
     - "zignd.html-css-class-completion"
     - "ms-vscode.cpptools"
     - "ms-python.vscode-pylance"
+    - "dart-code.flutter"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
