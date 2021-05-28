@@ -7,8 +7,8 @@
 
     "vsintellicode.modify.editor.suggestSelection": "disabled",
 
-    "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
 
     "workbench.colorTheme": "Ocean Dark Extended",
     "workbench.iconTheme": "vscode-icons",
@@ -22,9 +22,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
 
-    "docker.attachShellCommand.linuxContainer": "/bin/bash",
-
-    "python.jediEnabled": false,
     "python.languageServer": "Pylance",
 
     "vim.enableNeovim": true,
