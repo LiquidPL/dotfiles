@@ -1,5 +1,5 @@
 # $PATH, duh
-export PATH="$HOME/.local/bin:$PATH:$HOME/bin:$HOME/.config/composer/vendor/bin:$HOME/.pub-cache/bin"
+export PATH="$HOME/.local/bin:$PATH:$HOME/bin:$HOME/.config/composer/vendor/bin:$HOME/.pub-cache/bin:$HOME/bin/android-sdk/platform-tools"
 
 # Theming configuration for QT programs running in GNOME
 export QT_STYLE_OVERRIDE=kvantum
