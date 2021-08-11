@@ -2,8 +2,7 @@
 
 set -e
 
-PRIMARY_CONFIG="base"
-CONFIG_SUFFIX=".yaml"
+CONFIG="config.yaml"
 DOTBOT_DIR="dotbot"
 
 DOTBOT_BIN="bin/dotbot"
@@ -11,15 +10,8 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 uname="$(uname -a)"
 
-case "${uname}" in
-    Linux*)     SECONDARY_CONFIG="linux";;
-    Darwin*)    SECONDARY_CONFIG="macos";;
-esac
-
 cd "${BASEDIR}"
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive
 
-for conf in ${PRIMARY_CONFIG} ${SECONDARY_CONFIG} ${@}; do
-    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode --plugin-dir dotbot-gsettings -c configs/${conf}${CONFIG_SUFFIX}
-done
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode --plugin-dir dotbot-gsettings -c "${CONFIG}" "${@}"

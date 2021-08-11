@@ -4,14 +4,34 @@
     ~/.profile: profile  # gnome-shell sources .profile
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
+    ~/.config/Code/User/settings.json: vscode/settings.json
+    ~/.config/MangoHud: MangoHud
     ~/.pyenv: pyenv
     ~/.phpenv: phpenv
     ~/.phpenv/plugins/php-build:
         create: true
         path: php-build
 
+- gsettings:
+    - schema: 'org.gnome.desktop.wm.preferences'
+      key: 'action-middle-click-titlebar'
+      value: "'minimize'"
+
+    - schema: 'org.gnome.desktop.peripherals.mouse'
+      key: 'accel-profile'
+      value: "'flat'"
+
+    - schema: 'org.gnome.desktop.interface'
+      key: 'clock-show-weekday'
+      value: 'true'
+
+    - schema: 'org.gnome.desktop.interface'
+      key: 'clock-show-seconds'
+      value: 'true'
+
 - vscode:
     - "AndrsDC.base16-themes"
+    - 'fkrull.gtk-dark-titlebar'
     - "EditorConfig.EditorConfig"
     - "drewbarrett.vscode-coffeescript-preview"
     - "felixfbecker.php-debug"
