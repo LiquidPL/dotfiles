@@ -1,8 +1,12 @@
 - clean: ['~']
 
 - link:
-    ~/.profile: profile  # gnome-shell sources .profile
-    ~/.bashrc: bashrc
+    ~/.profile:
+      force: true
+      path: profile
+    ~/.bashrc:
+      force: true
+      path: bashrc
     ~/.gitconfig: gitconfig
     ~/.config/Code/User/settings.json: vscode/settings.json
     ~/.config/MangoHud: MangoHud
@@ -30,41 +34,41 @@
       value: 'true'
 
 - vscode:
-    - "AndrsDC.base16-themes"
-    - 'fkrull.gtk-dark-titlebar'
-    - "EditorConfig.EditorConfig"
-    - "drewbarrett.vscode-coffeescript-preview"
-    - "felixfbecker.php-debug"
-    - "bmewburn.vscode-intelephense-client"
-    - "humao.rest-client"
-    - "icrawl.discord-vscode"
-    - "kleber-swf.ocean-dark-extended"
-    - "mikestead.dotenv"
-    - "ms-python.python"
-    - "ms-dotnettools.csharp"
-    - "ms-vscode.mono-debug"
-    - "ms-azuretools.vscode-docker"
-    - "redhat.java"
-    - "vscode-icons-team.vscode-icons"
-    - "vscjava.vscode-java-debug"
-    - "vscjava.vscode-java-pack"
-    - "vscjava.vscode-java-test"
-    - "vscjava.vscode-maven"
-    - "vscodevim.vim"
-    - "yorkxin.coffeescript-support"
-    - "ms-vscode.vscode-typescript-tslint-plugin"
-    - "junstyle.php-cs-fixer"
-    - "MS-vsliveshare.vsliveshare-pack"
-    - "james-yu.latex-workshop"
-    - "tecosaur.latex-utilities"
-    - "onecentlin.laravel-blade"
-    - "codingyu.laravel-goto-view"
-    - "octref.vetur"
-    - "tht13.html-preview-vscode"
-    - "zignd.html-css-class-completion"
-    - "ms-vscode.cpptools"
-    - "ms-python.vscode-pylance"
-    - "dart-code.flutter"
+  - "AndrsDC.base16-themes"
+  - 'fkrull.gtk-dark-titlebar'
+  - "EditorConfig.EditorConfig"
+  - "drewbarrett.vscode-coffeescript-preview"
+  - "felixfbecker.php-debug"
+  - "bmewburn.vscode-intelephense-client"
+  - "humao.rest-client"
+  - "icrawl.discord-vscode"
+  - "kleber-swf.ocean-dark-extended"
+  - "mikestead.dotenv"
+  - "ms-python.python"
+  - "ms-dotnettools.csharp"
+  - "ms-vscode.mono-debug"
+  - "ms-azuretools.vscode-docker"
+  - "redhat.java"
+  - "vscode-icons-team.vscode-icons"
+  - "vscjava.vscode-java-debug"
+  - "vscjava.vscode-java-pack"
+  - "vscjava.vscode-java-test"
+  - "vscjava.vscode-maven"
+  - "vscodevim.vim"
+  - "yorkxin.coffeescript-support"
+  - "ms-vscode.vscode-typescript-tslint-plugin"
+  - "junstyle.php-cs-fixer"
+  - "MS-vsliveshare.vsliveshare-pack"
+  - "james-yu.latex-workshop"
+  - "tecosaur.latex-utilities"
+  - "onecentlin.laravel-blade"
+  - "codingyu.laravel-goto-view"
+  - "octref.vetur"
+  - "tht13.html-preview-vscode"
+  - "zignd.html-css-class-completion"
+  - "ms-vscode.cpptools"
+  - "ms-python.vscode-pylance"
+  - "dart-code.flutter"
 
 - shell:
     - [git submodule sync --recursive, Installing submodules]
