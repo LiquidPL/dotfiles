@@ -16,3 +16,6 @@
 [submodule "dotbot-gsettings"]
 	path = dotbot-gsettings
 	url = git@github.com:LiquidPL/dotbot-gsettings.git
+[submodule "nvm"]
+	path = nvm
+	url = https://github.com/nvm-sh/nvm.git

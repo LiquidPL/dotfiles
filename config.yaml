@@ -15,6 +15,7 @@
     ~/.phpenv/plugins/php-build:
         create: true
         path: php-build
+    ~/.nvm: nvm
 
 - gsettings:
     - schema: 'org.gnome.desktop.wm.preferences'
