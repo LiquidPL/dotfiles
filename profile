@@ -38,3 +38,6 @@ eval "$(phpenv init -)"
 # Flutter Version Manager configuration
 export FVM_HOME="$HOME/.fvm"
 export PATH="$PATH:$FVM_HOME/default/bin"
+
+# Go workspace path
+export GOPATH="$HOME/.go"
