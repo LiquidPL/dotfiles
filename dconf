@@ -8,7 +8,7 @@ default-size-rows=36
 bold-is-bright=true
 
 [org/gnome/terminal/legacy/profiles:]
-list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'ffc0e5d4-19a2-4bdc-af14-ce53dcc77df0']
+list=['ffc0e5d4-19a2-4bdc-af14-ce53dcc77df0']
 default='ffc0e5d4-19a2-4bdc-af14-ce53dcc77df0'
 
 [org/gnome/desktop/wm/preferences]
