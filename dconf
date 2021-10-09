@@ -1,0 +1,29 @@
+[org/gnome/terminal/legacy]
+theme-variant='dark'
+
+[org/gnome/terminal/legacy/profiles:/:ffc0e5d4-19a2-4bdc-af14-ce53dcc77df0]
+visible-name='Liquid'
+default-size-columns=120
+default-size-rows=36
+bold-is-bright=true
+
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'ffc0e5d4-19a2-4bdc-af14-ce53dcc77df0']
+default='ffc0e5d4-19a2-4bdc-af14-ce53dcc77df0'
+
+[org/gnome/desktop/wm/preferences]
+action-middle-click-titlebar='minimize'
+
+[org/gnome/desktop/wm/keybindings]
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-windows=['<Alt>Tab', '<Super>Tab']
+switch-windows-backward=['<Shift><Alt>Tab', '<Shift><Super>Tab']
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='flat'
+
+[org/gnome/desktop/interface]
+clock-show-weekday=true
+clock-show-seconds=true
+monospace-font-name='Hack 11'

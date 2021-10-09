@@ -17,27 +17,6 @@
         path: php-build
     ~/.nvm: nvm
 
-- gsettings:
-    - schema: 'org.gnome.desktop.wm.preferences'
-      key: 'action-middle-click-titlebar'
-      value: "'minimize'"
-
-    - schema: 'org.gnome.desktop.peripherals.mouse'
-      key: 'accel-profile'
-      value: "'flat'"
-
-    - schema: 'org.gnome.desktop.interface'
-      key: 'clock-show-weekday'
-      value: 'true'
-
-    - schema: 'org.gnome.desktop.interface'
-      key: 'clock-show-seconds'
-      value: 'true'
-
-    - schema: 'org.gnome.Terminal.Legacy.Settings'
-      key: 'theme-variant'
-      value: "'dark'"
-
 - vscode:
   - "AndrsDC.base16-themes"
   - 'fkrull.gtk-dark-titlebar'
@@ -78,4 +57,5 @@
   - "golang.go"
 
 - shell:
+    - [dconf load / < dconf, Applying GNOME settings]
     - [git submodule sync --recursive, Installing submodules]
