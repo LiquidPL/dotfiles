@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	excludesFile = /home/liquid/.dotfiles/gitignore
+	editor = vim
 [init]
 	defaultBranch = master
 [pull]
