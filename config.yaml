@@ -7,6 +7,12 @@
     ~/.bashrc:
       force: true
       path: bashrc
+    ~/.ssh/config:
+      create: true
+      path: ssh/config
+    ~/.ssh/config.d:
+      path: private/ssh/config.d
+      ignore-missing: true
     ~/.gitconfig: gitconfig
     ~/.config/Code/User/settings.json: vscode/settings.json
     ~/.config/MangoHud: MangoHud
@@ -58,4 +64,5 @@
 
 - shell:
     - [dconf load / < dconf, Applying GNOME settings]
+    - [chmod 700 ~/.ssh && chmod 600 ~/.ssh/config && chmod 700 ~/.ssh/config.d && chmod 600 ~/.ssh/config.d/*, Setting SSH config permissions]
     - [git submodule sync --recursive, Installing submodules]
