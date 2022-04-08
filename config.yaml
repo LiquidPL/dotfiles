@@ -28,7 +28,7 @@
   - 'fkrull.gtk-dark-titlebar'
   - "EditorConfig.EditorConfig"
   - "drewbarrett.vscode-coffeescript-preview"
-  - "felixfbecker.php-debug"
+  - "xdebug.php-debug"
   - "bmewburn.vscode-intelephense-client"
   - "humao.rest-client"
   - "icrawl.discord-vscode"
