@@ -60,7 +60,6 @@
   - "ms-python.vscode-pylance"
   - "dart-code.flutter"
   - "eamodio.gitlens"
-  - "golang.go"
 
 - shell:
     - [dconf load / < dconf, Applying GNOME settings]
