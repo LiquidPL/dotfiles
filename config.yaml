@@ -59,6 +59,7 @@
   - "ms-vscode.cpptools"
   - "ms-python.vscode-pylance"
   - "dart-code.flutter"
+  - "robert-brunhage.flutter-riverpod-snippets"
   - "eamodio.gitlens"
 
 - shell:
