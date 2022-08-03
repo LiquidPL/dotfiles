@@ -26,4 +26,4 @@ accel-profile='flat'
 [org/gnome/desktop/interface]
 clock-show-weekday=true
 clock-show-seconds=true
-monospace-font-name='Hack 11'
+monospace-font-name='Iosevka Expanded 11'

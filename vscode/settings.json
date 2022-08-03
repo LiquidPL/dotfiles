@@ -1,5 +1,6 @@
 {
-    "editor.fontFamily": "'Hack'",
+    "editor.fontFamily": "'Iosevka Extended'",
+    "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.detectIndentation": true,
     "editor.rulers": [80, 120],
