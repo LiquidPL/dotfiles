@@ -1,18 +1,18 @@
 [submodule "dotbot"]
 	path = dotbot
-	url = https://github.com/anishathalye/dotbot
+	url = https://github.com/anishathalye/dotbot.git
 [submodule "dotbot-vscode"]
 	path = dotbot-vscode
 	url = git@github.com:LiquidPL/dotbot-vscode.git
 [submodule "pyenv"]
 	path = pyenv
-	url = https://github.com/pyenv/pyenv
+	url = https://github.com/pyenv/pyenv.git
 [submodule "phpenv"]
 	path = phpenv
-	url = git://github.com/phpenv/phpenv.git
+	url = https://github.com/phpenv/phpenv.git
 [submodule "php-build"]
 	path = php-build
-	url = https://github.com/php-build/php-build
+	url = https://github.com/php-build/php-build.git
 [submodule "dotbot-gsettings"]
 	path = dotbot-gsettings
 	url = git@github.com:LiquidPL/dotbot-gsettings.git
