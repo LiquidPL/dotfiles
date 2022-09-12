@@ -1,32 +1,29 @@
 {
     "editor.fontFamily": "'Iosevka Extended'",
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.detectIndentation": true,
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.suggestSelection": "first",
-
     "vsintellicode.modify.editor.suggestSelection": "disabled",
-
     "window.titleBarStyle": "native",
     "window.menuBarVisibility": "toggle",
-
     "workbench.colorTheme": "Ocean Dark Extended",
     "workbench.iconTheme": "vscode-icons",
     "explorer.autoReveal": false,
     "breadcrumbs.enabled": true,
     "terminal.integrated.tabs.enabled": true,
     "vsicons.dontShowNewVersionMessage": true,
-
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-
     "python.languageServer": "Pylance",
-
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/bin/nvim",
-
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
@@ -34,22 +31,18 @@
     "php-cs-fixer.allowRisky": true,
     "php-cs-fixer.rules": "@PSR1,@PSR2,@Symfony,strict_comparison,strict_param,-phpdoc_align,-yoda_style",
     "blade.format.enable": true,
-
     "latex-workshop.view.pdf.viewer": "tab",
     "dart.flutterSdkPath": ".fvm/flutter_sdk",
-
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
         "**/*.code-search": true,
         "**/.fvm": true
     },
-
     "files.watcherExclude": {
         "**/.dart_tool": true,
         "**/.fvm": true
     },
-
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
