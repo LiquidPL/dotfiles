@@ -63,6 +63,7 @@
   - "visualstudioexptteam.vscodeintellicode"
   - "dotjoshjohnson.xml"
   - "redhat.vscode-yaml"
+  - "rust-lang.rust-analyzer"
 
 - shell:
     - [dconf load / < dconf, Applying GNOME settings]
