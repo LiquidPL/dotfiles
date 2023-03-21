@@ -1,4 +1,4 @@
-if [ -f ~/.bashrc ]; then
+if [ -n "$BASH" ] && [ -f ~/.bashrc ]; then
     source ~/.bashrc
 fi
 
@@ -6,13 +6,6 @@ fi
 export PATH="$HOME/.local/bin:$PATH:$HOME/bin:$HOME/.config/composer/vendor/bin:$HOME/.pub-cache/bin:$HOME/bin/android-sdk/platform-tools"
 
 export VISUAL=vim
-
-# Theming configuration for QT programs running in GNOME
-export QT_STYLE_OVERRIDE=kvantum
-
-# MangoHud, a vulkan overlay showing your FPS, CPU/GPU usage, etc
-# https://github.com/flightlessmango/MangoHud
-export MANGOHUD=1
 
 # pyenv variables
 export PYENV_ROOT="$HOME/.pyenv"
