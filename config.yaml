@@ -25,7 +25,6 @@
 
 - vscode:
   - "AndrsDC.base16-themes"
-  - 'fkrull.gtk-dark-titlebar'
   - "EditorConfig.EditorConfig"
   - "drewbarrett.vscode-coffeescript-preview"
   - "xdebug.php-debug"
@@ -42,7 +41,7 @@
   - "vscodevim.vim"
   - "phil294.coffeesense"
   - "junstyle.php-cs-fixer"
-  - "MS-vsliveshare.vsliveshare-pack"
+  - "ms-vsliveshare.vsliveshare"
   - "james-yu.latex-workshop"
   - "tecosaur.latex-utilities"
   - "onecentlin.laravel-blade"
