@@ -7,7 +7,9 @@
     ~/.bashrc:
       force: true
       path: bashrc
-    ~/.config/environment.d/envvars.conf: envvars.conf
+    ~/.config/environment.d/envvars.conf: 
+      create: true
+      path: envvars.conf
     ~/.ssh/config:
       create: true
       path: ssh/config
@@ -15,7 +17,9 @@
       path: private/ssh/config.d
       ignore-missing: true
     ~/.gitconfig: gitconfig
-    ~/.config/Code/User/settings.json: vscode/settings.json
+    ~/.config/Code/User/settings.json: 
+      create: true
+      path: vscode/settings.json
     ~/.config/MangoHud: MangoHud
     ~/.pyenv: pyenv
     ~/.phpenv: phpenv
