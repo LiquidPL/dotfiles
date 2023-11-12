@@ -10,7 +10,7 @@
     ],
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "disabled",
-    "window.titleBarStyle": "native",
+    "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Ocean Dark Extended",
     "workbench.iconTheme": "vscode-icons",
@@ -54,5 +54,7 @@
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
-    }
+    },
+    "redhat.telemetry.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }
