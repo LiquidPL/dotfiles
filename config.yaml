@@ -71,6 +71,7 @@
   - "dotjoshjohnson.xml"
   - "redhat.vscode-yaml"
   - "rust-lang.rust-analyzer"
+  - "redhat.ansible"
 
 - shell:
     - [dconf load / < dconf, Applying GNOME settings]
