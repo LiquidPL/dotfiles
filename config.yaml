@@ -7,6 +7,9 @@
     ~/.bashrc:
       force: true
       path: bashrc
+    ~/.bash_profile:
+      force: true
+      path: bash_profile
     ~/.config/environment.d/envvars.conf: 
       create: true
       path: envvars.conf
