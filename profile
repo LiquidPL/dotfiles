@@ -40,8 +40,8 @@ export PATH="$PATH:$FVM_HOME/default/bin"
 
 # Go workspace path
 export GOPATH="$HOME/.go"
+export PATH="$PATH:$GOPATH/bin"
 
 if which ruby > /dev/null 2>&1 && which gem > /dev/null 2>&1; then
     PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
-
