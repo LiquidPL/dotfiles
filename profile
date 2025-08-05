@@ -8,8 +8,6 @@ export PATH="$HOME/.local/bin:$PATH:$HOME/bin:$HOME/.config/composer/vendor/bin:
 export VISUAL=vim
 export KUBE_EDITOR=vim
 
-export SSH_AUTH_SOCK=~/.1password/agent.sock
-
 # pyenv variables
 export PYENV_ROOT="$HOME/.pyenv"
 
