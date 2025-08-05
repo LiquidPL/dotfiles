@@ -24,7 +24,6 @@
       create: true
       path: vscode/settings.json
     ~/.config/MangoHud: MangoHud
-    ~/.pyenv: pyenv
     ~/.phpenv: phpenv
     ~/.phpenv/plugins/php-build:
         create: true

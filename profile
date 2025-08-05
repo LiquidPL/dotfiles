@@ -13,17 +13,11 @@ export SSH_AUTH_SOCK=~/.1password/agent.sock
 # pyenv variables
 export PYENV_ROOT="$HOME/.pyenv"
 
-# pyenv initialization, should be placed near the bottom of this file
-
-# checks if a system pyenv is installed, otherwise points to the
-# dotfiles provided one
-if ! command -v pyenv >/dev/null 2>&1;
+# pyenv initialization, will run only if pyenv is already installed in the system
+if command -v pyenv >/dev/null 2>&1;
 then
-  export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
 fi
-
-# now that we ensured that a pyenv is in $PATH, we can safely run it
-eval "$(pyenv init -)"
 
 # phpenv initialization, fairly similar to pyenv, with the only difference
 # is that we're always using a dotfiles provided release
