@@ -8,10 +8,7 @@ export PATH="$HOME/.local/bin:$PATH:$HOME/bin:$HOME/.config/composer/vendor/bin:
 export VISUAL=vim
 export KUBE_EDITOR=vim
 
-export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
-
-export SSH_ASKPASS=/usr/bin/ksshaskpass
-export SSH_ASKPASS_REQUIRE=prefer
+export SSH_AUTH_SOCK=~/.1password/agent.sock
 
 # pyenv variables
 export PYENV_ROOT="$HOME/.pyenv"
