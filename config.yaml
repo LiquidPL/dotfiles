@@ -10,7 +10,7 @@
     ~/.bash_profile:
       force: true
       path: bash_profile
-    ~/.config/environment.d/envvars.conf: 
+    ~/.config/environment.d/envvars.conf:
       create: true
       path: envvars.conf
     ~/.ssh/config:
@@ -20,7 +20,7 @@
       path: private/ssh/config.d
       ignore-missing: true
     ~/.gitconfig: gitconfig
-    ~/.config/Code/User/settings.json: 
+    ~/.config/Code/User/settings.json:
       create: true
       path: vscode/settings.json
     ~/.config/MangoHud: MangoHud
@@ -46,7 +46,8 @@
   - "ms-python.pylint"
   - "ms-python.flake8"
   - "ms-dotnettools.csharp"
-  - "ms-azuretools.vscode-docker"
+  - "ms-vscode-remote.vscode-remote-extensionpack"
+  - "docker.docker"
   - "vscode-icons-team.vscode-icons"
   - "vscjava.vscode-java-pack"
   - "vscodevim.vim"
@@ -66,7 +67,6 @@
   - "robert-brunhage.flutter-riverpod-snippets"
   - "eamodio.gitlens"
   - "firefox-devtools.vscode-firefox-debug"
-  - "ms-vscode-remote.vscode-remote-extensionpack"
   - "cschlosser.doxdocgen"
   - "editorconfig.editorconfig"
   - "visualstudioexptteam.vscodeintellicode"
