@@ -43,6 +43,9 @@
         "**/.dart_tool": true,
         "**/.fvm": true
     },
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
